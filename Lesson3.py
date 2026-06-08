@@ -18,10 +18,8 @@ print(max(words, key=len))
 
 # Task 3
 
-word3 = input("Enter first Word: ")
-word4 = input("Enter Second word: ")
+word3 = input("Enter first Word: ").lower()
+word4 = input("Enter Second word: ").lower()
 
-word3 = word3.lower()
-word4 = word4.lower()
 
-print(sorted(word1.lower()) == sorted(word2.lower()))
+print(sorted(word3) == sorted(word4))
