@@ -32,14 +32,15 @@ elif arithmetic_operator == "-":
 elif arithmetic_operator == "*":
     print(number1*number2)
 elif arithmetic_operator == "/":
+    if num2 != 0:
     print(number1/number2)
+else:
+    print("Error)
 elif arithmetic_operator == "%":
     print(number1 % number2)
 elif arithmetic_operator == "**":
     print(number1**number2)
 
-if number2 == 0 and arithmetic_operator == "/":
-    print("Error")
 
 # Task 3
 
