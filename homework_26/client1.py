@@ -3,7 +3,7 @@ import asyncio
 
 
 async def receive_message(websocket):
-    async for message in websocket:s
+    async for message in websocket:
         print(f"\n{message}")
 
 
